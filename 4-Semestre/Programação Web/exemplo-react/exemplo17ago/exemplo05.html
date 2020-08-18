@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 3</title>
+    <style>
+        div{
+            margin-bottom: 10px;
+        }
+
+        input {
+            border-radius: 2px;
+            border: 0.5px solid #aaa;
+            padding-block: 4px;
+        }
+
+        #nome {
+            width: 250px;
+        }
+
+        #idade {
+            width: 50px;
+        }
+        
+    </style>
+
+    <script>
+        function cadastrar() {
+            alert('clicou')
+        }
+    </script>
+
+
+</head>
+<body>
+    <div>
+        <label for="nome">Nome</label>
+        <input type="text" id="nome">
+    </div>
+
+    <div>
+        <label for="idade">Idade</label>
+        <input type="number" id="idade">
+    </div>
+
+    <div>
+        <button onclick="cadastrar()">Salvar</button>
+        <button>Limpar</button>
+    </div>
+
+</body>
+</html>
